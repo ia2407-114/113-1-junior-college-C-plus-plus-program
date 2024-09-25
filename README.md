@@ -7,7 +7,7 @@ program is good :)
 
 拉專案下來
 ```
-git clone https://github.com/ia2407-113/112-2-junior-college-C-plus-plus-program.git 學號
+git clone https://github.com/ia2407-114/113-1-junior-college-C-plus-plus-program.git 學號
 ```
 <br>
 
