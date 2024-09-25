@@ -32,7 +32,7 @@ git config --global user.email <mailaddress>
 
 設定遠端節點
 ```
-git remote add origin https://github.com/ia2407-113/112-2-junior-college-C-plus-plus-program.git
+git remote add origin https://github.com/ia2407-114/113-1-junior-college-C-plus-plus-program.git
 ```
 <br>
 
