@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 int main() {
-	int i , num;
+	int i , a , num;
 	i = 1;
-	while(i<=15){
+	scanf("%d",&a);
+	while(i<=a){
 		printf("%d     ",i);
 		num = i*i;
 		printf("%d\n",num);
