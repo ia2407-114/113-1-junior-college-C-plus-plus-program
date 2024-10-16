@@ -6,7 +6,7 @@ int main()
 	double i = 3;
 	double b;
 	double a = 1;
-	printf("¿é¤J¤@­Ó²×ÂI­È\n");
+	printf("Å¼Ã©Â¤JÂ¤@Â­Ã“Ë›Ã—Ã‚IÂ­ÄŒ\n");
 	scanf_s("%lf", &b);
 	while (a <= b)
 	{
