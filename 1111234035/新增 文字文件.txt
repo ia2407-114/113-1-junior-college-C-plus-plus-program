@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   
 i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   
 i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   
@@ -96,3 +97,6 @@ i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate n
 i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   
 i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   
 i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   i hate ni   
+=======
+
+>>>>>>> e7b8c2b340877d97e8a31b3eb8387462634a945e
