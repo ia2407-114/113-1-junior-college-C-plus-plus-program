@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int n, i = 0;
+    double pi = 0.0;
+
+    printf("請輸入項目數量: ");
+    scanf("%d", &n);
+
+    while (i < n) {
+        double term = 4.0 / (2 * i + 1);
+        
+        if (i % 2 == 0) {
+            pi += term;
+        } else {
+            pi -= term;
+        }
+
+        i++;
+    }
+
+    printf("計算得到的 pi 值為: %.10f\n", pi);
+
+    return 0;
+}
