@@ -1,0 +1,5 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\User\1111234045\1111234045\3\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(9,16): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'int *'
+C:\Users\User\1111234045\1111234045\3\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(17,9): warning C4101: 's': 未參考的區域變數
+C:\Users\User\1111234045\1111234045\3\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(18,9): warning C4101: 'i': 未參考的區域變數
+  ConsoleApplication2.vcxproj -> C:\Users\User\1111234045\1111234045\3\ConsoleApplication2\Debug\ConsoleApplication2.exe
