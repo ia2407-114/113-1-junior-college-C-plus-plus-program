@@ -1,0 +1,1 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(456,5): error MSB8020: 找不到 Visual Studio 2019 的建置工具 (平台工具集 = 'v142')。若要使用 v142 建置工具進行建置，請安裝 Visual Studio 2019 建置工具。或者，您可以選取 [專案] 功能表，或在方案上按一下滑鼠右鍵，然後選取 [重定方案目標]，升級成最新版的 Visual Studio 工具。
