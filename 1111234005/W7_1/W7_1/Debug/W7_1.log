@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\marty\W7_1\W7_1\Source.cpp(5,13): warning C4101: 'i': 未參考的區域變數
+  W7_1.vcxproj -> E:\marty\W7_1\Debug\W7_1.exe
