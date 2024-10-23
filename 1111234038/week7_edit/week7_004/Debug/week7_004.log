@@ -1,0 +1,5 @@
+﻿  004.cpp
+E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week7\week7_004\004.cpp(10,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week7\week7_004\004.cpp(11,12): warning C4101: 'result': 未參考的區域變數
+E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week7\week7_004\004.cpp(11,9): warning C4101: 'i': 未參考的區域變數
+  week7_004.vcxproj -> E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week7\week7_004\Debug\week7_004.exe
