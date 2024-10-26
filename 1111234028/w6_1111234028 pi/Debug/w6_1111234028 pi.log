@@ -1,0 +1,4 @@
+﻿  w6 1111234028 2.cpp
+C:\Users\User\source\repos\w6_1111234028 pi\w6 1111234028 2.cpp(9,10): warning C4477: 'scanf_s' : 格式字串 '%f' 需要 'float *' 類型的引數，但 variadic 引數 1 的類型為 'double *'
+C:\Users\User\source\repos\w6_1111234028 pi\w6 1111234028 2.cpp(9,10): message : 請考慮在格式字串中使用 '%lf'
+  w6_1111234028 pi.vcxproj -> C:\Users\User\source\repos\w6_1111234028 pi\Debug\w6_1111234028 pi.exe
