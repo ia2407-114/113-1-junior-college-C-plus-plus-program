@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jason\\source\\repos\\w7 1111234028 \u7B2C1\u984C\\",
+  "WorkspaceRootPath": "C:\\Users\\jason\\source\\repos hw\\1111234028\\1111234028\\w7 1111234028_hw1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B3865BA-F195-4D13-B267-CF1E3964CE85}|w7 1111234028 \u7B2C1\u984C.vcxproj|C:\\Users\\jason\\source\\repos\\w7 1111234028 \u7B2C1\u984C\\w7 \u7B2C\u4E00\u984C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8B3865BA-F195-4D13-B267-CF1E3964CE85}|w7 1111234028 \u7B2C1\u984C.vcxproj|C:\\Users\\jason\\source\\repos hw\\1111234028\\1111234028\\w7 1111234028_hw1\\w7 \u7B2C\u4E00\u984C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B3865BA-F195-4D13-B267-CF1E3964CE85}|w7 1111234028 \u7B2C1\u984C.vcxproj|solutionrelative:w7 \u7B2C\u4E00\u984C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,15 +49,27 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "stdio.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ViewState": "AQIAAEYEAAAAAAAAAAApwEoEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-26T09:39:16.362Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "w7 \u7B2C\u4E00\u984C.cpp",
-              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\w7 1111234028 \u7B2C1\u984C\\w7 \u7B2C\u4E00\u984C.cpp",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos hw\\1111234028\\1111234028\\w7 1111234028_hw1\\w7 \u7B2C\u4E00\u984C.cpp",
               "RelativeDocumentMoniker": "w7 \u7B2C\u4E00\u984C.cpp",
-              "ToolTip": "C:\\Users\\jason\\source\\repos\\w7 1111234028 \u7B2C1\u984C\\w7 \u7B2C\u4E00\u984C.cpp",
+              "ToolTip": "C:\\Users\\jason\\source\\repos hw\\1111234028\\1111234028\\w7 1111234028_hw1\\w7 \u7B2C\u4E00\u984C.cpp",
               "RelativeToolTip": "w7 \u7B2C\u4E00\u984C.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-26T06:19:25.602Z",
+              "WhenOpened": "2024-10-26T08:37:11.453Z",
               "EditorCaption": ""
             }
           ]
