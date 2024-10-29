@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\ConsoleApplication1\ConsoleApplication1\Source.cpp(3,6): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+Source.obj : error LNK2005: main 已在 ConsoleApplication1.obj 中定義過了
+D:\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1169: 找到有一或多個已定義的符號
