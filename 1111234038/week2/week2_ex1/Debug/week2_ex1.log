@@ -1,0 +1,2 @@
+﻿  test001.cpp
+D:\資應二甲38\week2_ex1\test001.cpp(6,12): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
