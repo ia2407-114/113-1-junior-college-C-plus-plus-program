@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int Dice();
-
+ 
 int main(void)
 {
     unsigned int f2 = 0;
