@@ -3,27 +3,29 @@
 int fact(int);
 int res = 1;
 
-double exponen(int);
+double exponen(int, int);
 double const_e = 1.0;
 
 void main(void)
 {
-	int x, i, result;
+	int z, x, i, result;
 	double res;
-	printf("請輸入x的項數值:");
+	printf("請輸入z的項數值:");
+	scanf_s("%d", &z);
+	printf("請輸入x的值:");
 	scanf_s("%d", &x);
 
-	res = exponen(x);
+	res = exponen(x, z);
 
 	printf("e的值為%lf", res);
 }
 
 // 階層
-int fact(int x)
+int fact(int num)
 {
 	int i;
 
-	for (i = 1; i <= x; i++)
+	for (i = 1; i <= num; i++)
 	{
 		res *= i;
 	}
@@ -33,11 +35,11 @@ int fact(int x)
 
 
 // e
-double exponen(int x)
+double exponen(int x, int z)
 {
 	int i;
 
-	for (i = 1; i <= x; i++)
+	for (i = 1; i <= z; i++)
 	{
 		const_e += pow(x, i) / fact(i);
 	}
