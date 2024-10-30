@@ -1,27 +1,15 @@
 #include <stdio.h>
-
 int main()
 {
-    double x;
-    int n;
-
-
-    printf("請輸入 X 值: ");
-    scanf_s("%lf", &x);
-    printf("請輸入 n 值: ");
-    scanf_s("%d", &n);
-
-    double e_approx = 1.0;
-    double e = 1.0;
-
-
-    for (int i = 1; i <= n; i++) {
-        e *= i;
-        e_approx += (1.0 / e);
-    }
-
-
-    printf("e 的近似值 (x=%.2f, n=%d) 是: %.10f\n", x, n, e_approx);
-
-    return 0;
+	int i, n;
+	double const_e = 1.0, j = 1.0;
+	printf("請輸入項目數量==> \n");
+	scanf_s("%d", &n);
+	for (i = 1; i <= n; i++);
+	{
+		j *= i;
+		const_e += (1 / j);
+	}
+	printf("計算結果:%lf\n", const_e);
+	return 0;
 }
