@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\程式設計\week8 1111234043\week8 1111234043\Source.cpp(16,15): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  week8 1111234043.vcxproj -> E:\程式設計\week8 1111234043\Debug\week8 1111234043.exe
