@@ -1,0 +1,16 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00BD' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00D0' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00BF' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00E9' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00A4' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00B9' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00EA' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00C5' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00E7' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00A6' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00B8' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00BC' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(10,12): warning C4566: 由通用字元名稱 '\u00C6' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W8-1\W8-1\Source.cpp(23,38): warning C4018: '<=': signed/unsigned 不相符
+  W8-1.vcxproj -> C:\Users\User\Desktop\W8-1\Debug\W8-1.exe
