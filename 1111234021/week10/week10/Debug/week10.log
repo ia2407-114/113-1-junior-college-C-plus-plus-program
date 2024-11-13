@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\User\source\repos\week10\week10\Source.cpp(6,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+C:\Users\User\source\repos\week10\week10\Source.cpp(29,12): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  week10.vcxproj -> C:\Users\User\source\repos\week10\Debug\week10.exe
