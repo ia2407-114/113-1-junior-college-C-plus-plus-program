@@ -1,4 +1,0 @@
-﻿  002.cpp
-E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week10\week10_002\002.cpp(6,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
-E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week10\week10_002\002.cpp(29,12): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
-  week10_002.vcxproj -> E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week10\week10_002\Debug\week10_002.exe
