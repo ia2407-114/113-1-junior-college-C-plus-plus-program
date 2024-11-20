@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\Week_10-007-2\Week_10-007-2\Source.cpp(10,12): warning C4778: 'printf' : 未結束的格式字串 '%)'
+  Week_10-007-2.vcxproj -> C:\Users\User\Desktop\Week_10-007-2\Debug\Week_10-007-2.exe

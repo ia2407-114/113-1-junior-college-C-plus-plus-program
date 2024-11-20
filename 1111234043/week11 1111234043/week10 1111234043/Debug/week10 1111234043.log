@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\程式設計\week10 1111234043\week10 1111234043\Source.cpp(19,63): warning C4474: 'printf': 傳遞給格式字串的引數太多
+E:\程式設計\week10 1111234043\week10 1111234043\Source.cpp(19,63): message : 預留位置及其參數需要 4 個 variadic 引數，但卻提供了 5 個
+  week10 1111234043.vcxproj -> E:\程式設計\week10 1111234043\Debug\week10 1111234043.exe

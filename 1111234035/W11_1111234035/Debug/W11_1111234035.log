@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\User\Downloads\W11_1111234035\Source.cpp(6,8): warning C4101: 'total_sum': 未參考的區域變數
+C:\Users\User\Downloads\W11_1111234035\Source.cpp(31,21): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\Downloads\W11_1111234035\Source.cpp(32,22): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  W11_1111234035.vcxproj -> C:\Users\User\Downloads\W11_1111234035\Debug\W11_1111234035.exe
