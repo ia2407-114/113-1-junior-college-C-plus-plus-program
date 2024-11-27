@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\Project2\Debug\Project2.exe
+E:\C++\week_11-1\Debug\Project2.exe
+C:\Users\User\Desktop\week_11-1\Debug\Project2.exe
+C:\Users\User\Desktop\week_12-2\Debug\Project2.exe
