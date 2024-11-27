@@ -1,0 +1,15 @@
+﻿  WEEK12.cpp
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(18,11): warning C4477: 'scanf_s' : 格式字串 '%d' 需要 'int *' 類型的引數，但 variadic 引數 1 的類型為 'char *'
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(18,11): message : 請考慮在格式字串中使用 '%hhd'
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(18,27): warning C4474: 'scanf_s': 傳遞給格式字串的引數太多
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(18,27): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(20,55): error C2660: 'avg_score': 函式不使用 3 引數
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(3,7): message : 請參閱 'avg_score' 的宣告
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(20,9): warning C4473: 'printf' : 傳遞給格式字串的引數不足
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(20,9): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 0 個
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(20,9): message : 缺少 variadic 引數 1 (其為格式字串 '%f' 所需)
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(21,65): warning C4474: 'printf': 傳遞給格式字串的引數太多
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(21,65): message : 預留位置及其參數需要 4 個 variadic 引數，但卻提供了 5 個
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(25,10): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'char *'
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(25,69): warning C4474: 'printf': 傳遞給格式字串的引數太多
+C:\Users\User\Desktop\WEEK12\WEEK12-1\WEEK12-1\WEEK12.cpp(25,69): message : 預留位置及其參數需要 4 個 variadic 引數，但卻提供了 5 個
