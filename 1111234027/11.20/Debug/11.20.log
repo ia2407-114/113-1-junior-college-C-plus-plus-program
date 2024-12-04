@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\程設\11.20\Source.cpp(43,23): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  11.20.vcxproj -> E:\程設\11.20\Debug\11.20.exe

@@ -1,0 +1,5 @@
+﻿  Source.cpp
+E:\程設\11.27-2\Source.cpp(9,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+E:\程設\11.27-2\Source.cpp(98,17): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\程設\11.27-2\Source.cpp(99,17): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\程設\11.27-2\Source.cpp(100,17): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
