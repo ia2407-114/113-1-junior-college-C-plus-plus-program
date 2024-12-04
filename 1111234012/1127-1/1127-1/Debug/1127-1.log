@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\程式設計\1127-1\1127-1\Source.cpp(6,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+E:\程式設計\1127-1\1127-1\Source.cpp(10,9): warning C4101: 'j': 未參考的區域變數
+  1127-1.vcxproj -> E:\程式設計\1127-1\Debug\1127-1.exe
