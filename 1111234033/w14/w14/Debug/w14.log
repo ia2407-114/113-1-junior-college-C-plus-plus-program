@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\w14\w14\Source.cpp(8,34): warning C4101: 'searchKey': 未參考的區域變數
+D:\w14\w14\Source.cpp(8,45): warning C4101: 'index': 未參考的區域變數
+  w14.vcxproj -> D:\w14\Debug\w14.exe
