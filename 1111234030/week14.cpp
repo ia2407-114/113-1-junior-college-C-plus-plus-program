@@ -9,7 +9,7 @@ int main(void)
 {
     int a[2][SIZE] = { 0 }, mid, searchKey, index;
 
-    puts("¿é¤J¾Ç¥Í¾Ç¸¹¸ò¦¨ÁZ");
+    puts("è¼¸å…¥å­¸ç”Ÿå­¸è™Ÿè·Ÿæˆç¸¾");
 
     for (size_t i = 0; i < SIZE; ++i) {
         printf("input ID: ");
@@ -20,10 +20,10 @@ int main(void)
 
 
 
-    printf("¾Ç¸¹ ");
+    printf("å­¸è™Ÿ ");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4d", a[0][i]);
-    printf("\n¦¨ÁZ ");
+    printf("\næˆç¸¾ ");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4d", a[1][i]);
 
@@ -31,16 +31,16 @@ int main(void)
 
     mid = sort_score(a, SIZE);
 
-    puts("\n·Ó¤À¼Æ§C¨ì°ª±Æ§Ç");
+    puts("\nç…§åˆ†æ•¸ä½åˆ°é«˜æ’åº");
 
-    printf("¾Ç¸¹ ");
+    printf("å­¸è™Ÿ ");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4d", a[0][i]);
-    printf("\n¦¨ÁZ ");
+    printf("\næˆç¸¾ ");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4d", a[1][i]);
 
-    printf("\n¤¤¦ì¼Æ: %d", mid);
+    printf("\nä¸­ä½æ•¸: %d", mid);
     puts("");
 
 }
