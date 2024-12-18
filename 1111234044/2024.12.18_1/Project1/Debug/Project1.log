@@ -1,0 +1,6 @@
+﻿  Source1.cpp
+Source1.obj : error LNK2005: "int __cdecl sort_score(int (* const)[5],char * * const,int)" (?sort_score@@YAHQAY04HQAPADH@Z) 已在 Source.obj 中定義過了
+Source1.obj : error LNK2005: "void __cdecl swap_int(int *,int *)" (?swap_int@@YAXPAH0@Z) 已在 Source.obj 中定義過了
+Source1.obj : error LNK2005: "void __cdecl swap_string(char * *,char * *)" (?swap_string@@YAXPAPAD0@Z) 已在 Source.obj 中定義過了
+Source1.obj : error LNK2005: _main 已在 Source.obj 中定義過了
+C:\Users\User\source\repos\Project1\Debug\Project1.exe : fatal error LNK1169: 找到有一或多個已定義的符號
