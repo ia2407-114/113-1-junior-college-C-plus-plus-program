@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\Week_15-1\Source.cpp(12,12): warning C4101: 'B': 未參考的區域變數
+C:\Users\User\Desktop\Week_15-1\Source.cpp(10,34): warning C4101: 'searchKey': 未參考的區域變數
+C:\Users\User\Desktop\Week_15-1\Source.cpp(10,45): warning C4101: 'index': 未參考的區域變數
+C:\Users\User\Desktop\Week_15-1\Source.cpp(11,11): warning C4101: 'A': 未參考的區域變數
+  Week_15-1.vcxproj -> C:\Users\User\Desktop\Week_15-1\Debug\Week_15-1.exe
