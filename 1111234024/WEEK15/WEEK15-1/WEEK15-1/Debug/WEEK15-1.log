@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\WEEK15\WEEK15-1\WEEK15-1\Source.cpp(70,18): warning C4101: 'hold': 未參考的區域變數
+C:\Users\User\Desktop\WEEK15\WEEK15-1\WEEK15-1\Source.cpp(69,11): warning C4101: 'temp': 未參考的區域變數
+  WEEK15-1.vcxproj -> C:\Users\User\Desktop\WEEK15\WEEK15-1\Debug\WEEK15-1.exe
