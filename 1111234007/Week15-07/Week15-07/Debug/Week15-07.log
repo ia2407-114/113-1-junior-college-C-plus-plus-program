@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\新增資料夾\Week15-07\Week15-07\Source.cpp(14,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+C:\Users\User\Desktop\新增資料夾\Week15-07\Week15-07\Source.cpp(19,12): warning C4101: 'search_key': 未參考的區域變數
+C:\Users\User\Desktop\新增資料夾\Week15-07\Week15-07\Source.cpp(19,9): warning C4101: 'j': 未參考的區域變數
+  Week15-07.vcxproj -> C:\Users\User\Desktop\新增資料夾\Week15-07\Debug\Week15-07.exe
