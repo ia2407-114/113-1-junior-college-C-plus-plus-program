@@ -1,0 +1,5 @@
+﻿  Source.cpp
+E:\程式設計\1218-1\1218-1\Source.cpp(12,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+E:\程式設計\1218-1\1218-1\Source.cpp(16,15): warning C4101: 'search_key': 未參考的區域變數
+E:\程式設計\1218-1\1218-1\Source.cpp(16,12): warning C4101: 'j': 未參考的區域變數
+  1218-1.vcxproj -> E:\程式設計\1218-1\Debug\1218-1.exe
