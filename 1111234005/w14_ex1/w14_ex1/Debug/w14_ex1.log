@@ -1,0 +1,5 @@
+﻿  Source.cpp
+E:\marty\w14_ex1\w14_ex1\Source.cpp(12,34): warning C4101: 'searchKey': 未參考的區域變數
+E:\marty\w14_ex1\w14_ex1\Source.cpp(12,45): warning C4101: 'index': 未參考的區域變數
+E:\marty\w14_ex1\w14_ex1\Source.cpp(66,18): warning C4101: 'hold': 未參考的區域變數
+  w14_ex1.vcxproj -> E:\marty\w14_ex1\Debug\w14_ex1.exe
