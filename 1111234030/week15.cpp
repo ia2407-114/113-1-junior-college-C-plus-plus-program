@@ -11,27 +11,27 @@ int main(void)
     int a[2][SIZE] = { 0 }, mid;//, searchKey, index;
     char* names[SIZE];
     char stu_name[5][15];
-    puts("¿é¤J¾Ç¥Í¾Ç¸¹¸ò¦¨ÁZ");
+    puts("è¼¸å…¥å­¸ç”Ÿå­¸è™Ÿè·Ÿæˆç¸¾");
 
     for (size_t i = 0; i < SIZE; ++i) {
-        printf("¾Ç¥Í%d\n", i +1);
-        printf("¿é¤J¾Ç¸¹: ");
+        printf("å­¸ç”Ÿ%d\n", i +1);
+        printf("è¼¸å…¥å­¸è™Ÿ: ");
         scanf_s("%d", &a[0][i]);
-        printf("¿é¤J©m¦W: ");
+        printf("è¼¸å…¥å§“å: ");
         scanf_s("%s", stu_name[i],14);
         names[i] = stu_name[i];
-        printf("¿é¤J¦¨ÁZ: ");
+        printf("è¼¸å…¥æˆç¸¾: ");
         scanf_s("%d", &a[1][i]);
     }
 
 
-    printf("¾Ç¸¹ ");
+    printf("å­¸è™Ÿ ");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4d", a[0][i]);
-    printf("\n©m¦W");
+    printf("\nå§“å");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4s", names[i]);
-    printf("\n¦¨ÁZ ");
+    printf("\næˆç¸¾ ");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4d", a[1][i]);
 
@@ -39,19 +39,19 @@ int main(void)
 
     mid = sort_score(a, names, SIZE);
 
-    puts("\n·Ó¤À¼Æ§C¨ì°ª±Æ§Ç");
+    puts("\nç…§åˆ†æ•¸ä½åˆ°é«˜æ’åº");
 
-    printf("¾Ç¸¹ ");
+    printf("å­¸è™Ÿ ");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4d", a[0][i]);
-    printf("\n©m¦W");
+    printf("\nå§“å");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4s", names[i]);
-    printf("\n¦¨ÁZ ");
+    printf("\næˆç¸¾ ");
     for (size_t i = 0; i < SIZE; ++i)
         printf("%4d", a[1][i]);
 
-    printf("\n¤¤¦ì¼Æ: %d", mid);
+    printf("\nä¸­ä½æ•¸: %d", mid);
     puts("");
 
 }
