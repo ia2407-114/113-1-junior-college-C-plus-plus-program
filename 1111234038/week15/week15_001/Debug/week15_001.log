@@ -1,0 +1,5 @@
+﻿  01.cpp
+E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week15\week15_001\01.cpp(14,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week15\week15_001\01.cpp(19,12): warning C4101: 'search_key': 未參考的區域變數
+E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week15\week15_001\01.cpp(19,9): warning C4101: 'j': 未參考的區域變數
+  week15_001.vcxproj -> E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\程式設計\week15\week15_001\Debug\week15_001.exe
