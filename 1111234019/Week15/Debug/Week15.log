@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\User\source\repos\Week15\Source.cpp(61,51): error C2664: 'void swap_name(char *,char *)': 無法將引數 1 從 'char **' 轉換為 'char *'
+C:\Users\User\source\repos\Week15\Source.cpp(61,27): message : 指向的類型沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+C:\Users\User\source\repos\Week15\Source.cpp(7,6): message : 請參閱 'swap_name' 的宣告
+C:\Users\User\source\repos\Week15\Source.cpp(75,23): error C2440: '正在初始化': 無法由 'char' 轉換為 'char *'
+C:\Users\User\source\repos\Week15\Source.cpp(75,16): message : 從整數類資料類型轉換為指標類型必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+C:\Users\User\source\repos\Week15\Source.cpp(77,17): error C2440: '=': 無法由 'char *' 轉換為 'char'
+C:\Users\User\source\repos\Week15\Source.cpp(77,13): message : 沒有可以進行此轉換的內容
