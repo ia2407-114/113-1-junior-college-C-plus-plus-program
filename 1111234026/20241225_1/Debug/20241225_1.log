@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\20241225_1\Source.cpp(81,29): warning C4244: 'return': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\20241225_1\Source.cpp(57,18): warning C4101: 'hold': 未參考的區域變數
+  20241225_1.vcxproj -> C:\Users\User\Desktop\20241225_1\Debug\20241225_1.exe
