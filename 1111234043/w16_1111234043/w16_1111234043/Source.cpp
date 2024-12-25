@@ -1,87 +1,81 @@
+
 #include <stdio.h>
 #define SIZE 5
-#define NAME_SIZE 15
+typedef struct student {
+    char name[20];
+    int id, math, comput;
+    float avg;
+}stu;
+int sort_score(stu my_class[SIZE], int len);
+void printf_result(stu my_class[SIZE], int len);
 
-int sort_score(int a[2][SIZE], char* names[SIZE], int len, int (*compare)(int a, int b));
-void swap(int* value_i, int* value_i_plus_1);
-void swap_name(char** stu1, char** stu2);
-int ascending(int a, int b);
-int decending(int a, int b);
-int main(void) {
-    int a[2][SIZE] = { 0 }, mid;
-    char stu_name[SIZE][NAME_SIZE];
-    char* names[SIZE];
+int main(void)
+{
+    
+    stu my_class[SIZE] = { 0 };
+    int i, mid;
 
     puts("Data items in original order");
 
-    for (size_t i = 0; i < SIZE; ++i) {
-        printf("Input ID: ");
-        scanf_s("%d", &a[0][i]);
-        printf("Input score: ");
-        scanf_s("%d", &a[1][i]);
-        printf("輸入姓名: ");
-        scanf_s("%s", stu_name[i], 14);
-        names[i] = stu_name[i];
+   
+    for (i = 0; i < SIZE; ++i) {
+        printf("input 姓名: ");
+        scanf_s("%s", my_class[i].name, 19);
+        printf("input 學號: ");
+        scanf_s("%d", &my_class[i].id);
+        printf("input 數學成績: ");
+        scanf_s("%d", &my_class[i].math);
+        printf("input 電腦成績: ");
+        scanf_s("%d", &my_class[i].comput);
+        my_class[i].avg = (float)(my_class[i].math + my_class[i].comput) / 2;
     }
 
-    printf("學號 ");
-    for (size_t i = 0; i < SIZE; ++i)
-        printf("%15d", a[0][i]);
-    printf("\n成績 ");
-    for (size_t i = 0; i < SIZE; ++i)
-        printf("%15d", a[1][i]);
-    printf("\n姓名");
-    for (size_t i = 0; i < SIZE; ++i)
-        printf("%15s", names[i]);
 
-    mid = sort_score(a, names, SIZE, ascending);
+    
+    printf_result(my_class, SIZE);
+
+    mid = sort_score(my_class, SIZE);
 
     puts("\nData items in ascending order");
 
-    printf("學號 ");
-    for (size_t i = 0; i < SIZE; ++i)
-        printf("%15d", a[0][i]);
-    printf("\n成績 ");
-    for (size_t i = 0; i < SIZE; ++i)
-        printf("%15d", a[1][i]);
-    printf("\n姓名 ");
-    for (size_t i = 0; i < SIZE; ++i)
-        printf("%15s", names[i]);
+    printf_result(my_class, SIZE);
+
     printf("\n中位數: %d", mid);
     puts("");
 
-    return 0;
 }
 
-int sort_score(int a[2][SIZE], char* names[SIZE], int len, int (*compare)(int a, int b)) {
-    for (int pass = 1; pass < len; ++pass) {
-        for (int i = 0; i < len - 1; ++i) {
-            if ((*compare)(a[1][i], a[1][i + 1]))
-            {
-                swap(&a[1][i], &a[1][i + 1]);
-                swap(&a[0][i], &a[0][i + 1]);
-                swap_name(&names[i], &names[i + 1]);
+
+int sort_score(stu my_class[SIZE], int len)
+{
+    stu* Myclass, temp;
+    int pass, i, hold, sum = 0;
+
+    for (pass = 1; pass < len; ++pass) {
+
+
+        for (i = 0; i < len - 1; ++i) {
+
+
+            if (my_class[i].avg < my_class[i + 1].avg) {
+                temp = my_class[i];
+                my_class[i] = my_class[i + 1];
+                my_class[i + 1] = temp;
             }
         }
     }
-    return a[1][len / 2];
-}
-int ascending(int a, int b)
-{
-    return a > b;
-}
-int decending(int a, int b)
-{
-    return a < b;
-}
-void swap(int* value_i, int* value_i_plus_1) {
-    int temp = *value_i;
-    *value_i = *value_i_plus_1;
-    *value_i_plus_1 = temp;
+    return my_class[len / 2].avg;
 }
 
-void swap_name(char** stu1, char** stu2) {
-    char* temp = *stu1;
-    *stu1 = *stu2;
-    *stu2 = temp;
+void printf_result(stu my_class[SIZE], int len)
+{
+    int i;
+    printf("姓名          學號      數學      電腦      平均 \n ");
+    for (i = 0; i < SIZE; ++i) {
+        printf("%15s", my_class[i].name);
+        printf("%10d", my_class[i].id);
+        printf("%10d", my_class[i].math);
+        printf("%10d", my_class[i].comput);
+        printf("%10f\n", my_class[i].avg);
+    }
 }

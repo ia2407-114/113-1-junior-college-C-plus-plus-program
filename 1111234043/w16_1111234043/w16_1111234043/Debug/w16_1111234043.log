@@ -1,2 +1,5 @@
 ﻿  Source.cpp
-  w16_1111234043.vcxproj -> E:\程式設計\w16_1111234043\Debug\w16_1111234043.exe
+C:\Users\User\Desktop\w16_1111234043\w16_1111234043\Source.cpp(67,29): warning C4244: 'return': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\w16_1111234043\w16_1111234043\Source.cpp(52,18): warning C4101: 'hold': 未參考的區域變數
+C:\Users\User\Desktop\w16_1111234043\w16_1111234043\Source.cpp(51,10): warning C4101: 'Myclass': 未參考的區域變數
+  w16_1111234043.vcxproj -> C:\Users\User\Desktop\w16_1111234043\Debug\w16_1111234043.exe
