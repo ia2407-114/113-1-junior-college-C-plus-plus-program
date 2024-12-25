@@ -23,14 +23,14 @@ int main(void)
     //puts("Data items in original order");
 
     // output original array
-    for (size_t i = 0; i < SIZE; ++i) {//¿é¤J¾Ç¸¹¦¨ÁZ
-        printf("¿é¤J¦W¦r:\n");
+    for (size_t i = 0; i < SIZE; ++i) {//è¼¸å…¥å­¸è™Ÿæˆç¸¾
+        printf("è¼¸å…¥åå­—:\n");
         scanf_s("%s", myclass[i].name,19);
         printf("ID:\n");
         scanf_s("%d", &myclass[i].id);
-        printf("¼Æ¾Ç¦¨ÁZ:\n");
+        printf("æ•¸å­¸æˆç¸¾:\n");
         scanf_s("%d", &myclass[i].math);
-        printf("¹q¸£¦¨ÁZ:\n");
+        printf("é›»è…¦æˆç¸¾:\n");
         scanf_s("%d", &myclass[i].comput);
         myclass[i].avg = (double)(myclass[i].math + myclass[i].comput) / 2;
     }
@@ -46,7 +46,7 @@ int main(void)
     // output sorted array
     printing(myclass, SIZE);
 
-    printf("\n¤¤¦ì¼Æ:%d", mid);
+    printf("\nä¸­ä½æ•¸:%d", mid);
     puts("");
 
 }
@@ -79,7 +79,7 @@ int sort_score(stu myclass[SIZE], int len)
 }
 
 void printing(stu myclass[SIZE], int len) {
-    printf("©m¦W     ¾Ç¸¹     ¼Æ¾Ç     ¹q¸£     ¥­§¡\n ");
+    printf("å§“å     å­¸è™Ÿ     æ•¸å­¸     é›»è…¦     å¹³å‡\n ");
         for (size_t i = 0; i < SIZE; ++i)
         {
             printf("%2s\t", myclass[i].name);
