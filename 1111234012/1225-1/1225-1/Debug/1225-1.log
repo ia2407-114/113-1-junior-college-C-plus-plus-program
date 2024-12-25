@@ -1,0 +1,7 @@
+﻿  Source.cpp
+E:\程式設計\1225-1\1225-1\Source.cpp(19,32): warning C4101: 'len': 未參考的區域變數
+E:\程式設計\1225-1\1225-1\Source.cpp(19,14): warning C4101: 'searchKey': 未參考的區域變數
+E:\程式設計\1225-1\1225-1\Source.cpp(19,25): warning C4101: 'index': 未參考的區域變數
+E:\程式設計\1225-1\1225-1\Source.cpp(77,29): warning C4244: 'return': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+E:\程式設計\1225-1\1225-1\Source.cpp(55,18): warning C4101: 'hold': 未參考的區域變數
+  1225-1.vcxproj -> E:\程式設計\1225-1\Debug\1225-1.exe
