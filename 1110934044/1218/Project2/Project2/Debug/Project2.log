@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\1110934044\1218\Project2\Project2\Source.cpp(64,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\1110934044\1218\Project2\Project2\Source.cpp(65,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\1110934044\1218\Project2\Project2\Source.cpp(66,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
