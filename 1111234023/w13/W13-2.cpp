@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
-int binary(int key, int a[4][5], int low, int high);
+int binary(int key, int a[4][5], int low, int high);             /* binary æ˜¯äºŒåˆ†æœå°‹æ³•*/
 
-int sort_score(int a[4][5], char names[5][10], int len);
+int sort_score(int a[4][5], char names[5][10], int len);         /* sort  æ˜¯æ’åºå‡½æ•¸*/
 
 
 int main(void)
 {
 	int score[4][5] = { 0 };
-	int j = 0;
-	int key = 0;
+	int i = 0;
+	int key = 0;                                                  /*è·Ÿ (low+high)/2 æ¯”å¤§å°*/
 	int find = 0;
 	int high = 4;
 	int low = 0;
@@ -18,36 +18,36 @@ int main(void)
 
 	for (j = 0; j <= 4; j++)
 	{
-		printf("what is ur ©À\n");
-		scanf_s("%s", names[j], 10);
-		printf("½Ğ¿é¤J¾Ç¸¹\n");
-		scanf_s("%d", &score[0][j]);
-		printf("½Ğ¿é¤J­p·§\n");
-		scanf_s("%d", &score[1][j]);
-		printf("½Ğ¿é¤J¼Æ¾Ç\n");
-		scanf_s("%d", &score[2][j]);
+		printf("è¼¸å…¥ä½ çš„åå­—:\n");
+		scanf_s("%s", names[i], 10);
+		printf("è«‹è¼¸å…¥å­¸è™Ÿ\n");
+		scanf_s("%d", &score[0][i]);
+		printf("è«‹è¼¸å…¥è¨ˆæ¦‚\n");
+		scanf_s("%d", &score[1][i]);
+		printf("è«‹è¼¸å…¥æ•¸å­¸\n");
+		scanf_s("%d", &score[2][i]);
 	}
 
 	sort_score(score, names, 5);
 
 	int e = 0;
-	printf("\n±Æ§Ç«á:\n%s%4s%8s%8s%8s\n", "©m¦W", "¾Ç¸¹", "¼Æ¾Ç", "¾÷·§", "¥­§¡");
+	printf("\næ’åºå¾Œ:\n%s%4s%8s%8s%8s\n", "å§“å", "å­¸è™Ÿ", "æ•¸å­¸", "è¨ˆæ¦‚", "å¹³å‡");
 	for (e = 0; e <= 4; e++)
 	{
 		printf("%s%4d%8d%8d%8d\n", names[e], score[0][e], score[1][e], score[2][e], score[3][e]);
 	}
 
-	printf("\n½Ğ¿é¤J­n·j´Mªº¾Ç¥Í¾Ç¸¹:\n");
+	printf("\nè«‹è¼¸å…¥è¦æœå°‹çš„å­¸ç”Ÿå­¸è™Ÿ:\n");
 	scanf_s("%d", &key);
 	find = binary(key, score, low, high);
 	if (find = -1)
 	{
-		printf("\n¥¼·j´M¨ìµ²ªG :(\n");
+		printf("\næœªæœå°‹åˆ°çµæœ :(\n");
 	}
 	else
 	{
-		printf("\n¬d¸ßµ²ªG¦p¤U:\n");
-		printf("%s%5s%5s%5s\n", "©m¦W", "¾Ç¸¹", "¼Æ¾Ç", "¾÷·§");
+		printf("\næŸ¥è©¢çµæœå¦‚ä¸‹:\n");
+		printf("%s%5s%5s%5s\n", "å§“å", "å­¸è™Ÿ", "æ•¸å­¸", "è¨ˆæ¦‚");
 		printf("%s%5d%5d%5d\n", names[find], score[0][find], score[1][find], score[2][find]);
 	}
 
@@ -56,21 +56,21 @@ int main(void)
 
 int binary(int key, int a[4][5], int low, int high)
 {
-	int mid;
+	int midium;
 	while (low <= high)
 	{
 		mid = (low + high) / 2;
-		if (a[0][mid] < key)
+		if (a[0][midium] < key)
 		{
-			high = mid - 1;
+			high = midium - 1;
 		}
-		else if (a[0][mid] > key)
+		else if (a[0][midium] > key)
 		{
-			low = mid + 1;
+			low = midium + 1;
 		}
-		else if (a[0][mid] == key)
+		else if (a[0][midium] == key)
 		{
-			return mid;
+			return midium;
 		}
 	}
 	return -1;
