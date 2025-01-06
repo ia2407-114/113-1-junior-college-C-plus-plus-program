@@ -4,15 +4,13 @@
 int sort_score(int a[2][SIZE], int len);
 void swap(int a[2][SIZE], int r, int c);
 void chemwhythwhojo(int* j1, int* j2);
-// function main begins program execution
+
 int main(void)
 {
-	// initialize a
 	int a[2][SIZE] = { 0 }, mid;
 
 	puts("Data items in original order");
 
-	// output original array
 	for (size_t i = 0; i < SIZE; ++i) {
 		printf("input ID: ");
 		scanf_s("%d", &a[0][i]);
@@ -20,11 +18,10 @@ int main(void)
 		scanf_s("%d", &a[1][i]);
 	}
 
-	// original order
-	printf("¾Ç¸¹ ");
+	printf("å­¸è™Ÿ ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4d", a[0][i]);
-	printf("\n¦¨ÁZ ");
+	printf("\næˆç¸¾ ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4d", a[1][i]);
 
@@ -32,15 +29,14 @@ int main(void)
 
 	puts("\nData items in ascending order");
 
-	// output sorted array
-	printf("¾Ç¸¹ ");
+	printf("å­¸è™Ÿ ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4d", a[0][i]);
-	printf("\n¦¨ÁZ ");
+	printf("\næˆç¸¾ ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4d", a[1][i]);
 
-	printf("\n¤¤¦ì¼Æ: %d", mid);
+	printf("\nä¸­ä½æ•¸: %d", mid);
 	puts("");
 }
 
