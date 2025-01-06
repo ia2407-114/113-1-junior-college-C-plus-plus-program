@@ -29,7 +29,7 @@ int main(void)
 	{
 		for (e = 0; e <= 4; e++)
 		{
-			printf("%d		", score[q][e]);
+			printf("%d", score[q][e]);
 		}
 		printf("\n");
 	}
