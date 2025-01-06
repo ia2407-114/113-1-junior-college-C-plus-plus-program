@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-double avg_score(int a[4][5], int l);
+float avg_score(int arr[4][5], char names[5][10], int len);
 
 
 int main(void)
@@ -8,30 +8,42 @@ int main(void)
 	int score[4][5] = { 0 };
 	int i = 0;
 	double totallong = 0.0;
-
+	char names[5][10];
 
 	for (i = 0; i <= 4; i++)
 	{
-		printf("½Ð¿é¤J¾Ç¸¹\n");
+		printf("è¼¸å…¥ä½ çš„åå­—\n");
+		scanf_s("%s", names[i], 10);
+		printf("è¼¸å…¥å­¸è™Ÿ\n");
 		scanf_s("%d", &score[0][i]);
-		printf("½Ð¿é¤J­p·§\n");
+		printf("è¼¸å…¥è¨ˆæ¦‚\n");
 		scanf_s("%d", &score[1][i]);
-		printf("½Ð¿é¤J¼Æ¾Ç\n");
+		printf("è¼¸å…¥æ•¸å­¸\n");
 		scanf_s("%d", &score[2][i]);
 	}
+	totallong = avg_score(score, names, 5);
+	printf("å…¨ç­ç¸½æˆç¸¾å¹³å‡ç‚º:%f\n", totallong);
+}
 
-	totallong = avg_score(score, 5);
-	printf("\n");
-	printf("¥þ¯Z¦¨ÁZªí¦p¤U\n");
-	int e = 0;
-	int q = 0;
-	for (q = 0; q <= 3; q++)
+float avg_score(int arr[4][5], char names[5][10], int len)
+{
+	double totallong = 0.0;
+	int i = 0;
+
+	for (i = 0; i <= 4; i++)
 	{
-		for (e = 0; e <= 4; e++)
-		{
-			printf("%d		", score[q][e]);
-		}
-		printf("\n");
+		arr[3][i] = (arr[1][i] + arr[2][i]) / 2;
 	}
-	printf("¥þ¯ZÁ`¦¨ÁZ¥­§¡¬°:%lf\n", totallong);
+
+	printf("\n%s%4s%8s%8s%8s", "å§“å", "å­¸è™Ÿ", "æ•¸å­¸", "è¨ˆæ¦‚", "å¹³å‡\n");
+	int e = 0;
+	for (e = 0; e <= 4; e++)
+	{
+		printf("%s%4d%8d%8d%8d\n", names[e], arr[0][e], arr[1][e], arr[2][e], arr[3][e]);
+	}
+	printf("\n");
+
+	totallong = (arr[3][0] + arr[3][1] + arr[3][2] + arr[3][3] + arr[3][4]) / 5;
+
+	return totallong;
 }
