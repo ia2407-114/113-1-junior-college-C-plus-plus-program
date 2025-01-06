@@ -1,29 +1,29 @@
 #include <stdio.h>
 #include <string.h>
 
-int sort_score(int a[4][5], char names[5][10], int len);
+int sort_score(int arr[4][5], char names[5][10], int len);
 
 
 int main(void)
 {
 	int score[4][5] = { 0 };
-	int j = 0;
-	int mid = 0;
+	int i = 0;
+	int midium = 0;
 	char names[5][10];
 
-	for (j = 0; j <= 4; j++)
+	for (i = 0; i <= 4; i++)
 	{
-		printf("what is ur ©À\n");
-		scanf_s("%s", names[j], 10);
-		printf("½Ð¿é¤J¾Ç¸¹\n");
-		scanf_s("%d", &score[0][j]);
-		printf("½Ð¿é¤J­p·§\n");
-		scanf_s("%d", &score[1][j]);
-		printf("½Ð¿é¤J¼Æ¾Ç\n");
-		scanf_s("%d", &score[2][j]);
+		printf("è¼¸å…¥ä½ çš„åå­—\n");
+		scanf_s("%s", names[i], 10);
+		printf("è¼¸å…¥å­¸è™Ÿ\n");
+		scanf_s("%d", &score[0][i]);
+		printf("è¼¸å…¥è¨ˆæ¦‚æˆç¸¾\n");
+		scanf_s("%d", &score[1][i]);
+		printf("è¼¸å…¥æ•¸å­¸æˆç¸¾\n");
+		scanf_s("%d", &score[2][i]);
 	}
 
-	printf("\n±Æ§Ç«e:\n%s%4s%8s%8s%8s\n", "©m¦W", "¾Ç¸¹", "¼Æ¾Ç", "¾÷·§", "¥­§¡");
+	printf("\næŽ’åºå‰:\n%s%4s%8s%8s%8s\n", "å§“å", "å­¸è™Ÿ", "æ•¸å­¸æˆç¸¾", "è¨ˆæ¦‚æˆç¸¾", "å¹³å‡");
 	int e = 0;
 	for (e = 0; e <= 4; e++)
 	{
@@ -31,16 +31,16 @@ int main(void)
 	}
 	printf("\n");
 
-	mid = sort_score(score, names, 5);
+	midium = sort_score(score, names, 5);
 
-	printf("\n±Æ§Ç«e:\n%s%4s%8s%8s%8s\n", "©m¦W", "¾Ç¸¹", "¼Æ¾Ç", "¾÷·§", "¥­§¡");
+	printf("\næŽ’åºå‰:\n%s%4s%8s%8s%8s\n", "å§“å", "å­¸è™Ÿ", "æ•¸å­¸æˆç¸¾", "è¨ˆæ¦‚æˆç¸¾", "å¹³å‡");
 
 	for (e = 0; e <= 4; e++)
 	{
 		printf("%s%4d%8d%8d%8d\n", names[e], score[0][e], score[1][e], score[2][e], score[3][e]);
 	}
 
-	printf("\n¥þ¯ZÁ`¦¨ÁZªº¤¤¦ì¼Æ¬°:%d\n", mid);
+	printf("\nå…¨ç­ç¸½æˆç¸¾çš„ä¸­ä½æ•¸ç‚º:%d\n", midium);
 }
 
 int sort_score(int a[4][5], char names[5][10], int len)
