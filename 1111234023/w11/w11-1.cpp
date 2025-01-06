@@ -12,11 +12,11 @@ int main(void)
 
 	for (j = 0; j <= 4; j++)
 	{
-		printf("輸入學生學號\n");
+		printf("輸入學號\n");
 		scanf_s("%d", &score[0][j]);
-		printf("輸入學生計概成績\n");
+		printf("輸入計概成績\n");
 		scanf_s("%d", &score[1][j]);
-		printf("輸入學生數學成績\n");
+		printf("輸入數學成績\n");
 		scanf_s("%d", &score[2][j]);
 	}
 
