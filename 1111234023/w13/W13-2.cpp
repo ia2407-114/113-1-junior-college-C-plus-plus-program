@@ -20,11 +20,11 @@ int main(void)
 	{
 		printf("輸入你的名字:\n");
 		scanf_s("%s", names[i], 10);
-		printf("請輸入學號\n");
+		printf("輸入學號\n");
 		scanf_s("%d", &score[0][i]);
-		printf("請輸入計概\n");
+		printf("輸入計概\n");
 		scanf_s("%d", &score[1][i]);
-		printf("請輸入數學\n");
+		printf("輸入數學\n");
 		scanf_s("%d", &score[2][i]);
 	}
 
