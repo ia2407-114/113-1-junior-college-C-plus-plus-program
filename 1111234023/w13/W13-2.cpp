@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
-int binary(int key, int a[4][5], int low, int high);             /* binary 是二分搜尋法*/
+int binary(int key, int a[4][5], int low, int high);                
 
-int sort_score(int a[4][5], char names[5][10], int len);         /* sort  是排序函數*/
+int sort_score(int a[4][5], char names[5][10], int len);             
 
 
 int main(void)
 {
 	int score[4][5] = { 0 };
 	int i = 0;
-	int key = 0;                                                  /*跟 (low+high)/2 比大小*/
+	int key = 0;                                            
 	int find = 0;
 	int high = 4;
 	int low = 0;
