@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-int search(int key, int a[4][5], int len);
+int search(int key, int a[4][5], int len);                     /*serch æ˜¯å°ˆé–€ç”¨åœ¨æ”¶å°‹è³‡æ–™*/
 
-int sort_score(int a[4][5], char names[5][10], int len);
+int sort_score(int arr[4][5], char names[5][10], int len);      /*sort æ˜¯æ’åºå‡½æ•¸*/
 
 
 int main(void)
@@ -11,26 +11,26 @@ int main(void)
 	int score[4][5] = { 0 };
 	int j = 0;
 	int key = 0;
-	int find = 0;
+	int find = 0;                                            
 	char names[5][10];
 
 	for (j = 0; j <= 4; j++)
 	{
-		printf("what is ur ©À\n");
+		printf("è¼¸å…¥ä½ çš„åå­—: \n");
 		scanf_s("%s", names[j], 10);
-		printf("½Ğ¿é¤J¾Ç¸¹\n");
+		printf("è¼¸å…¥å­¸è™Ÿ\n");
 		scanf_s("%d", &score[0][j]);
-		printf("½Ğ¿é¤J­p·§\n");
+		printf("è¼¸å…¥è¨ˆæ¦‚\n");
 		scanf_s("%d", &score[1][j]);
-		printf("½Ğ¿é¤J¼Æ¾Ç\n");
+		printf("è¼¸å…¥æ•¸å­¸\n");
 		scanf_s("%d", &score[2][j]);
 	}
 
-	printf("½Ğ¿é¤J·j´Mªº¾Ç¥Í¾Ç¸¹:\n");
+	printf("è¼¸å…¥æœå°‹çš„å­¸ç”Ÿå­¸è™Ÿ:\n");
 	scanf_s("%d", &key);
 	find = search(key, score, 5);
-	printf("\n¬d¸ßµ²ªG:\n");
-	printf("%s%5s%5s%5s\n", "©m¦W", "¾Ç¸¹", "¼Æ¾Ç", "¾÷·§");
+	printf("\næŸ¥è©¢çµæœ:\n");
+	printf("%s%5s%5s%5s\n", "å§“å", "å­¸è™Ÿ", "æ•¸å­¸", "è¨ˆæ¦‚");
 	printf("%s%5d%5d%5d\n", names[find], score[0][find], score[1][find], score[2][find]);
 }
 
@@ -47,7 +47,7 @@ int search(int key, int a[4][5], int len)
 	return -1;
 }
 
-int sort_score(int a[4][5], char names[5][10], int len)
+int sort_score(int arr[4][5], char names[5][10], int len)
 {
 	int i, j, l;
 	int temp;
@@ -55,7 +55,7 @@ int sort_score(int a[4][5], char names[5][10], int len)
 
 	for (i = 0; i <= 4; i++)
 	{
-		a[3][i] = (a[1][i] + a[2][i]) / 2;
+		arr[3][i] = (arr[1][i] + arr[2][i]) / 2;
 	}
 
 	for (i = 0; i <= 5; i++)
@@ -63,13 +63,13 @@ int sort_score(int a[4][5], char names[5][10], int len)
 		for (j = 0; j <= 4; j++)
 		{
 
-			if (a[3][j] < a[3][j + 1])
+			if (arr[3][j] < arr[3][j + 1])
 			{
 				for (l = 0; l <= 3; l++)
 				{
-					temp = a[l][j];
-					a[l][j] = a[3][j + 1];
-					a[l][j + 1] = temp;
+					temp = arr[l][j];
+					arr[l][j] = arr[3][j + 1];
+					arr[l][j + 1] = temp;
 				}
 			}
 		}
