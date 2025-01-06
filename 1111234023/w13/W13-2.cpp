@@ -16,7 +16,7 @@ int main(void)
 	int low = 0;
 	char names[5][10];
 
-	for (j = 0; j <= 4; j++)
+	for (i = 0; i <= 4; i++)
 	{
 		printf("輸入你的名字:\n");
 		scanf_s("%s", names[i], 10);
