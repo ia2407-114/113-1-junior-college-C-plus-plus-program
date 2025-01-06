@@ -37,7 +37,7 @@ int main(void)
 		printf("%s%4d%8d%8d%8d\n", names[e], score[0][e], score[1][e], score[2][e], score[3][e]);
 	}
 
-	printf("\n請輸入要搜尋的學生學號:\n");
+	printf("\n輸入要搜尋的學生學號:\n");
 	scanf_s("%d", &key);
 	find = binary(key, score, low, high);
 	if (find = -1)
