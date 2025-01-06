@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-int search(int key, int a[4][5], int len);                     /*serch 是專門用在收尋資料*/
+int search(int key, int a[4][5], int len);                    
 
-int sort_score(int arr[4][5], char names[5][10], int len);      /*sort 是排序函數*/
-
+int sort_score(int arr[4][5], char names[5][10], int len);     
 
 int main(void)
 {
