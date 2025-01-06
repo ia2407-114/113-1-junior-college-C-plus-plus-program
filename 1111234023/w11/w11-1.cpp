@@ -14,9 +14,9 @@ int main(void)
 	{
 		printf("輸入學生學號\n");
 		scanf_s("%d", &score[0][j]);
-		printf("輸入學生計概\n");
+		printf("輸入學生計概成績\n");
 		scanf_s("%d", &score[1][j]);
-		printf("輸入學生數學\n");
+		printf("輸入學生數學成績\n");
 		scanf_s("%d", &score[2][j]);
 	}
 
