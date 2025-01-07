@@ -3,9 +3,9 @@
 
 typedef struct students
 {
-	char name[20];
-	int ID, math, computer;
-	float avg;
+	char  name[20];
+	int  ID, math, computer;
+	float  avg;
 }stu;
 
 int sort_score(struct students j[], int len);
