@@ -15,7 +15,7 @@ int main(void)
 {
 	stu j[SIZE];
 	float  midium;
-	int i;
+	int  i;
 
 	for (size_t i = 0; i < SIZE; ++i) {
 		printf("input ur name: ");
