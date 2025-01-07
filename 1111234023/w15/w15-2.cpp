@@ -8,7 +8,7 @@ int de(int a, int b);
 
 int main(void)
 {
-	int a[2][SIZE] = { 0 }, mid;
+	int a[2][SIZE] = { 0 }, midium;
 	char* names[5];
 	char sn[5][20];
 	int (*compare)();
@@ -25,13 +25,13 @@ int main(void)
 		scanf_s("%d", &a[1][i]);
 	}
 
-	printf("\n¦W¦r ");
+	printf("\nåå­— ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4s", names[i]);
-	printf("\n¾Ç¸¹ ");
+	printf("\nå­¸è™Ÿ ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4d", a[0][i]);
-	printf("\n¦¨ÁZ ");
+	printf("\næˆç¸¾ ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4d", a[1][i]);
 
@@ -41,17 +41,17 @@ int main(void)
 
 	puts("\nData items in ascending order");
 
-	printf("\n¦W¦r ");
+	printf("\nåå­— ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4s", names[i]);
-	printf("\n¾Ç¸¹ ");
+	printf("\nå­¸è™Ÿ ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4d", a[0][i]);
-	printf("\n¦¨ÁZ ");
+	printf("\næˆç¸¾ ");
 	for (size_t i = 0; i < SIZE; ++i)
 		printf("%4d", a[1][i]);
 
-	printf("\n¤¤¦ì¼Æ: %d", mid);
+	printf("\nä¸­ä½æ•¸: %d", midium);
 	puts("");
 }
 
