@@ -14,7 +14,7 @@ void print(struct students j[], int i);
 int main(void)
 {
 	stu j[SIZE];
-	float mid;
+	float midium;
 	int i;
 
 	for (size_t i = 0; i < SIZE; ++i) {
@@ -29,7 +29,7 @@ int main(void)
 		j[i].avg = (j[i].math + j[i].computer) / 2;
 	}
 
-	printf("¦W¦r		¾Ç¸¹	¼Æ¾Ç	¹q¸£	¥­§¡\n");
+	printf("åå­—		å­¸è™Ÿ	æ•¸å­¸	é›»è…¦	å¹³å‡\n");
 
 	for (i = 0; i <= 4; i++)
 	{
@@ -38,7 +38,7 @@ int main(void)
 
 	mid = sort_score(j, SIZE);
 
-	printf("¦W¦r	¾Ç¸¹	¼Æ¾Ç	¹q¸£	¥­§¡\n");
+	printf("åå­—	å­¸è™Ÿ	æ•¸å­¸	é›»è…¦	å¹³å‡\n");
 	for (i = 0; i <= 4; i++)
 	{
 		print(j, i);
