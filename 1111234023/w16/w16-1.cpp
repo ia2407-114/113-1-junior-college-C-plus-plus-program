@@ -14,7 +14,7 @@ void print(struct students j[], int i);
 int main(void)
 {
 	stu j[SIZE];
-	float midium;
+	float  midium;
 	int i;
 
 	for (size_t i = 0; i < SIZE; ++i) {
