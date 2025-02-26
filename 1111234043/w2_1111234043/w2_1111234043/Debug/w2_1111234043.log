@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\w2_1111234043\w2_1111234043\Source.cpp(23,47): warning C4838: 從 'double' 到 'char' 的轉換必須是縮小轉換
+C:\Users\User\Desktop\w2_1111234043\w2_1111234043\Source.cpp(23,47): warning C4244: '正在初始化': 將 'double' 轉換為 'char'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\w2_1111234043\w2_1111234043\Source.cpp(36,29): warning C4477: 'fscanf_s' : 格式字串 '%9d' 需要 'int *' 類型的引數，但 variadic 引數 3 的類型為 'char *'
+C:\Users\User\Desktop\w2_1111234043\w2_1111234043\Source.cpp(36,29): message : 請考慮在格式字串中使用 '%hhd'
+C:\Users\User\Desktop\w2_1111234043\w2_1111234043\Source.cpp(36,29): warning C4477: 'fscanf_s' : 格式字串 '%9d' 需要 'int *' 類型的引數，但 variadic 引數 4 的類型為 'char *'
+C:\Users\User\Desktop\w2_1111234043\w2_1111234043\Source.cpp(36,29): message : 請考慮在格式字串中使用 '%hhd'
+  w2_1111234043.vcxproj -> C:\Users\User\Desktop\w2_1111234043\Debug\w2_1111234043.exe

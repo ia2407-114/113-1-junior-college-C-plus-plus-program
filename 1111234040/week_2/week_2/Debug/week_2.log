@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\User\source\repos\week_2\week_2\Source.cpp(31,21): warning C4477: 'scanf_s' : 格式字串 '%9d' 需要 'int *' 類型的引數，但 variadic 引數 3 的類型為 'char *'
+C:\Users\User\source\repos\week_2\week_2\Source.cpp(31,21): message : 請考慮在格式字串中使用 '%hhd'
+C:\Users\User\source\repos\week_2\week_2\Source.cpp(31,21): warning C4477: 'scanf_s' : 格式字串 '%9d' 需要 'int *' 類型的引數，但 variadic 引數 4 的類型為 'char *'
+C:\Users\User\source\repos\week_2\week_2\Source.cpp(31,21): message : 請考慮在格式字串中使用 '%hhd'
+  week_2.vcxproj -> C:\Users\User\source\repos\week_2\Debug\week_2.exe
