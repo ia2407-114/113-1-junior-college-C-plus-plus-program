@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\week 0226\week 0226\Source.cpp(36,22): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+C:\Users\User\Desktop\week 0226\week 0226\Source.cpp(36,22): message : 預留位置及其參數需要 5 個 variadic 引數，但卻提供了 3 個
+C:\Users\User\Desktop\week 0226\week 0226\Source.cpp(36,22): message : 缺少 variadic 引數 4 (其為格式字串 '%9d' 所需)
+  week 0226.vcxproj -> C:\Users\User\Desktop\week 0226\Debug\week 0226.exe
