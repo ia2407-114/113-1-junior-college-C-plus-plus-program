@@ -1,0 +1,6 @@
+﻿  w2 hw2.cpp
+C:\Users\User\source\repos\w2 1111234028 hw2\w2 hw2.cpp(32,12): warning C4477: 'printf' : 格式字串 '%6d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'unsigned int *'
+C:\Users\User\source\repos\w2 1111234028 hw2\w2 hw2.cpp(32,12): warning C4477: 'printf' : 格式字串 '%16d' 需要 'int' 類型的引數，但 variadic 引數 3 的類型為 'int *'
+C:\Users\User\source\repos\w2 1111234028 hw2\w2 hw2.cpp(32,12): warning C4477: 'printf' : 格式字串 '%11d' 需要 'int' 類型的引數，但 variadic 引數 4 的類型為 'int *'
+C:\Users\User\source\repos\w2 1111234028 hw2\w2 hw2.cpp(32,12): warning C4477: 'printf' : 格式字串 '%10lf' 需要 'double' 類型的引數，但 variadic 引數 5 的類型為 'double *'
+  w2 1111234028 hw2.vcxproj -> C:\Users\User\source\repos\w2 1111234028 hw2\Debug\w2 1111234028 hw2.exe
