@@ -1,8 +1,0 @@
-﻿  1218_第2題.cpp
-C:\Users\User\source\repos\1218_第2題\1218_第2題\1218_第2題.cpp(14,26): warning C4273: 'puts': 不一致的 DLL 連結
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.20348.0\ucrt\stdio.h(358,26): message : 請參閱 'puts' 之前的定義
-C:\Users\User\source\repos\1218_第2題\1218_第2題\1218_第2題.cpp(36,17): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
-C:\Users\User\source\repos\1218_第2題\1218_第2題\1218_第2題.cpp(36,17): message : 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
-C:\Users\User\source\repos\1218_第2題\1218_第2題\1218_第2題.cpp(36,17): message : 缺少 variadic 引數 2 (其為格式字串 '%s' 所需)
-C:\Users\User\source\repos\1218_第2題\1218_第2題\1218_第2題.cpp(36,17): message : 此引數可用為緩衝區大小
-  1218_第2題.vcxproj -> C:\Users\User\source\repos\1218_第2題\Debug\1218_第2題.exe

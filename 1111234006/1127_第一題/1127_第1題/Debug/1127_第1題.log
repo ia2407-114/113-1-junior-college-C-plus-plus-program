@@ -1,3 +1,0 @@
-﻿  1127_第1題.cpp
-C:\Users\User\source\repos\1127_第1題\1127_第1題\1127_第1題.cpp(44,45): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
-  1127_第1題.vcxproj -> C:\Users\User\source\repos\1127_第1題\Debug\1127_第1題.exe
