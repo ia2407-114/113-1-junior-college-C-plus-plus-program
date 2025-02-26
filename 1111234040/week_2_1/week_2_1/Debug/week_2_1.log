@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\User\source\repos\week_2_1\week_2_1\Source.cpp(12,30): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\User\source\repos\week_2_1\week_2_1\Source.cpp(24,17): warning C4477: 'fprintf' : 格式字串 '% d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'double'
+  week_2_1.vcxproj -> C:\Users\User\source\repos\week_2_1\Debug\week_2_1.exe
