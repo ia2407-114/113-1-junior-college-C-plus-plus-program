@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\week 0312\week 0312\Source.cpp(45,24): warning C4244: 'return': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  week 0312.vcxproj -> C:\Users\User\Desktop\week 0312\Debug\week 0312.exe
