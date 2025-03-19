@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\Project1\Project1\Source.cpp(7,5): error C2065: 'GradeBook': 未宣告的識別項
+C:\Users\User\Desktop\Project1\Project1\Source.cpp(7,15): error C2146: 語法錯誤: 遺漏 ';' (在識別項 'student' 之前)
+C:\Users\User\Desktop\Project1\Project1\Source.cpp(7,15): error C3861: 'student': 找不到識別項
+C:\Users\User\Desktop\Project1\Project1\Source.cpp(10,5): error C2065: 'student': 未宣告的識別項
+C:\Users\User\Desktop\Project1\Project1\Source.cpp(16,5): error C2065: 'student': 未宣告的識別項
+C:\Users\User\Desktop\Project1\Project1\Source.cpp(22,5): error C2065: 'student': 未宣告的識別項
+C:\Users\User\Desktop\Project1\Project1\Source.cpp(26,5): error C2065: 'student': 未宣告的識別項
+  Source1.cpp
+  正在產生程式碼...
