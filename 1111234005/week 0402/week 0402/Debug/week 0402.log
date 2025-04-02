@@ -1,0 +1,2 @@
+﻿  implement.cpp
+C:\Users\User\Desktop\week 0402\week 0402\implement.cpp(7,1): error C2178: 'GradeBook::{ctor}' 不可由 'explicit' 指定名稱宣告
