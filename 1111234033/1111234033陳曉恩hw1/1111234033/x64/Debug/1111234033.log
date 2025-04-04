@@ -1,3 +1,0 @@
-﻿  Source.cpp
-C:\Users\user\source\repos\1111234033\1111234033\Source.cpp(3,6): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
-  1111234033.vcxproj -> C:\Users\user\source\repos\1111234033\x64\Debug\1111234033.exe
