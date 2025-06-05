@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-Tw">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NUTC IM 202506</title>
+  
+  <!-- 4.加入 favicon，『安』圖示 -->
+  <link rel="apple-touch-icon" sizes="180x180"    href="logo/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- 載入 Font Awesome (記得要把 css/all.css 檔案放進同資料夾) -->
+  <link rel="stylesheet" href="css/all.css"/>
+
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", "Courier New", monospace;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      position: relative;
+      padding: 0.25em 1em;
+      border: solid 2px #e79686;
+      border-radius: 3px 0 3px 0;
+      color: #716e77;
+    }
+
+    p {
+      color: #a39391;
+    }
+    .row {
+            display: flex;    
+            flex-wrap: wrap;  /*杯子換行的設定*/
+            padding: 0 4px;
+            }
+    .row2 {  /*金魚『不用』換行*/
+            display: flex;                
+            padding: 0 4px;
+        }
+  /*1. 在row2樣式的div下的兩個子div，加入gray與brown兩個樣式 (50~65行)*/
+        .gray {
+          flex-grow: 1;
+          flex-shrink: 1;
+          flex-basis: 600px;
+        }  
+
+        .brown{
+          flex-grow: 2;
+          flex-shrink: 2;
+          flex-basis: 600px;
+        }
+
+        .gray img, .brown img {
+          width: 100%;
+          height: auto;
+          }
+
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+  /*2. 設定row樣式的div下column樣式，使用媒體查詢在螢幕寬度在1080px之下時，
+       各列的顯示為三列格式(比例為33%)。(80~99行) */
+    @media (max-width: 1080px) {
+      .column {
+        flex: 33%;
+        max-width: 33%;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .box {
+      position: relative;
+      width: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      background-color: #87f0f7;
+      opacity: 0.5;
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transform: scale(0.5);
+      transition: all 1.2s;
+    }
+
+    .box:hover .overlay {
+      bottom: 0;
+      height: 100%;
+      transform: scale(1);
+    }
+
+    .text {
+      font-size: 2.5rem;
+      color: red;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>NUTC IM 202506</h1>
+    <p style="color: red;">題目內容的紅字要小心處理，需全部功能完成才會給分！</p>
+    <!--3. Font Awesome 圖示放大2倍『fa-2x』(142~145行) -->
+    <div>
+      <i class="fa-brands fa-cc-visa fa-2x"></i>
+      <i class="fa-brands fa-cc-mastercard fa-2x"></i>
+    </div>
+  </header>
+
+  <div class="row2">
+  <div class="gray">
+      
+        <img src="image/salmon_7363289.png" alt="相片" />
+      
+    </div>
+    <div class="brown">
+      
+        <img src="image/salmon_21104663.png" alt="相片" />
+      
+    </div>
+  </div>
+
+  <div class="row">
+    <!--5. 每個圖片加上 hover 效果，這裡只有4個咖啡杯有動畫 -->
+    <div class="column">
+      <div class="box">
+        <img src="image/coffee_21099532.png" alt="相片" />
+        <div class="overlay">
+          <div class="text">Let it go.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="box">
+        <img src="image/coffee_6373238.png" alt="相片" />
+        <div class="overlay">
+          <div class="text">Be fearless.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="box">
+        <img src="image/coffee_6621949.png" alt="相片" />
+        <div class="overlay">
+          <div class="text">Taiwan No!!</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="box">
+        <img src="image/coffee_6621955.png" alt="相片" />
+        <div class="overlay">
+          <div class="text">Just do it!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

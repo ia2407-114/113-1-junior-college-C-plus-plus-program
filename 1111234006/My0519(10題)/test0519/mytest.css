@@ -1,0 +1,68 @@
+/* 2. id-header格式設定*/
+h1[id="id-header"]{
+    color: brown;
+}
+/* 6. 套用google fonts的css區塊 */  
+h1{
+    font-family:'LXGW WenKai Mono TC',sans-serif;
+}
+
+/* 10. h1文字套動畫移動 */  
+h1 {
+    animation: moveScale 5s linear infinite alternate;
+  }
+  
+  @keyframes moveScale {
+    0% {
+      transform: translateX(-30%) scaleX(1);  /* 左邊 & 原寬 */
+    }
+    50% {
+      transform: translateX(0%) scaleX(0.8);  /* 中間 & 縮寬 */
+    }
+    100% {
+      transform: translateX(30%) scaleX(1);   /* 右邊 & 原寬 */
+    }
+  }
+  
+
+/* 2. color-header格式設定 */
+h2[class="color-header"]{
+    color: purple;
+}
+
+/* 3. */
+a:hover{
+    color:green;
+}
+a:active{
+    color:red;
+}
+
+/* 4. */
+li:nth-child(even){
+    background-color: pink;
+}
+
+/* 5. */ 
+p::selection{
+    background-color: palevioletred;
+    color:white;
+}
+
+/* 7,8 */
+section{
+    background-image: url(images/square.png);
+    background-repeat: repeat;
+}
+
+/*9.*/
+.polaroid:hover{
+    transition: all 3s ease-in-out;
+    transform:scale(0.7)rotate(360deg) ;
+}
+.polaroid:active{
+    transition: all 5s ease-in-out;
+    transform: translate(500px,0) ;
+}
+
+
